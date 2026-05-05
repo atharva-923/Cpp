@@ -7,7 +7,7 @@ int main(){
     if(age>=18){
         cout<<"You are an adult.";
     }
-    else if(age>10 && age<=17) {}
+    else if(age>10 && age<=17) {
         cout<<"You are an teenager.";
     }
     else if(age>=1 && age<=10){
