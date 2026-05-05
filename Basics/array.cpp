@@ -20,6 +20,17 @@ int main(){
     for(i=0;i<sizeof(ar)/sizeof(ar[0]);i++){
         cout<<ar[i]<<" ";
     }
-
+//2D array
+    string tda[][4]={{"Cars","BMW","Mercedes","Audi"},//[rows][columns]
+                   {"Fruits","Apple","Banana","Mango"},
+                   {"Sports","Football","Cricket","Tennis"}
+                   };
+    cout<<"\n2D Array: "<<endl;
+    for(i=0;i<sizeof(tda)/sizeof(tda[0]);i++){
+        for(int j=0;j<sizeof(tda[i])/sizeof(tda[i][0]);j++){
+            cout<<tda[i][j]<<" ";
+        }
+        cout<<endl;
+    }
     return 0;
 }
