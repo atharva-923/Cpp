@@ -8,7 +8,6 @@ int main(){
     // cout<<x<<"\n"<<y;
     string s = "Atharva patil";
     cout<<s;//it will only print the first word of the string because it will stop at the space.
-    
     string str;
     getline(cin,str);//get line is used to take input with space.
     cout<<str;
